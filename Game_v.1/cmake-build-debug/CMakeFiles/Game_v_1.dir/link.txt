@@ -1,0 +1,3 @@
+"D:\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Game_v_1.dir/objects.a
+C:\Users\1\Downloads\mingw64\bin\ar.exe cr CMakeFiles\Game_v_1.dir/objects.a @CMakeFiles\Game_v_1.dir\objects1.rsp
+C:\Users\1\Downloads\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Game_v_1.dir/objects.a -Wl,--no-whole-archive  -o Game_v_1.exe -Wl,--out-implib,libGame_v_1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Game_v_1.dir\linklibs.rsp
